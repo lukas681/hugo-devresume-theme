@@ -192,7 +192,7 @@ a.resume-link {
 @media (max-width: 991.98px) {
 
 	.resume-name {
-		font-size: 2.2rem;
+		font-size: 2.0rem;
 	}
     .resume-aside {
 	    border-left: 0;
@@ -203,11 +203,16 @@ a.resume-link {
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
 	.resume-name {
-		font-size:2rem;
+		font-size:2.0em
 	}
 	.resume-contact {
 	    border-left: 0;
     }
+}
+@media (max-width: 570px) {
+	.resume-name {
+		font-size:2.75rem
+	}
 }
 
 
