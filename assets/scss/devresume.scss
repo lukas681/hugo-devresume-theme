@@ -212,6 +212,17 @@ a.resume-link {
 	.resume-name {
 		font-size:2.75rem
 	}
+	.resume-contact {
+	    border-left: 0;
+    }
+}
+@media (max-device-width: 767.98px) {
+	.resume-name {
+		font-size:1.8rem
+	}
+	.resume-contact {
+	    border-left: 0;
+    }
 }
 
 
